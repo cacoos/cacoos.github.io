@@ -4,7 +4,7 @@ var diff = now - start;
 var oneDay = 1000 * 60 * 60 * 24;
 var day = Math.floor(diff / oneDay);
 
-const START_DAY = 200
+const START_DAY = 214
 const END_DAY = START_DAY + 33
 
 const TEXTS = [
@@ -59,7 +59,7 @@ window.onload = async function() {
     document.getElementById('caption').textContent = TEXTS[day - START_DAY];
   });
 
-  await new Promise(resolve => setTimeout(resolve, 0));
+  await new Promise(resolve => setTimeout(resolve, 1500));
   document.getElementById('loading').className = "hidden";
 
   if (START_DAY <= day && day <= END_DAY) {
