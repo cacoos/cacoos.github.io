@@ -6,7 +6,7 @@ var diff = now - start;
 var oneDay = 1000 * 60 * 60 * 24;
 var day = Math.floor(diff / oneDay);
 
-const START_DAY = 200
+const START_DAY = 214
 const END_DAY = START_DAY + 33
 
 const TEXTS = [
@@ -61,7 +61,7 @@ window.onload = async function() {
     document.getElementById('caption').textContent = TEXTS[day - START_DAY];
   })(null,["img_0_1.jpeg","img_10_1.jpeg","img_11_1.jpeg","img_11_2.jpeg","img_12_1.jpeg","img_13_1.jpeg","img_13_2.jpeg","img_14_1.jpeg","img_15_1.jpeg","img_16_1.jpeg","img_17_1.jpeg","img_18_1.png","img_19_1.jpeg","img_19_2.jpeg","img_1_1.jpeg","img_1_2.jpeg","img_20_1.png","img_21_1.png","img_22_1.png","img_23_1.png","img_24_1.jpg","img_25_1.jpg","img_26_1.jpg","img_27_1.jpg","img_28_1.jpg","img_29_1.jpg","img_2_1.jpeg","img_30_1.jpg","img_31_1.jpg","img_32_1.jpg","img_3_1.jpeg","img_4_1.jpeg","img_4_2.jpeg","img_5_1.jpeg","img_6_1.jpeg","img_6_2.jpeg","img_7_1.jpeg","img_8_1.jpeg","img_9_1.jpeg","img_9_2.jpeg"])});
 
-  await new Promise(resolve => setTimeout(resolve, 0));
+  await new Promise(resolve => setTimeout(resolve, 1500));
   document.getElementById('loading').className = "hidden";
 
   if (START_DAY <= day && day <= END_DAY) {
