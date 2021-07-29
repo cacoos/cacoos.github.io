@@ -4,8 +4,7 @@ var diff = now - start;
 var oneDay = 1000 * 60 * 60 * 24;
 var day = Math.floor(diff / oneDay);
 
-// const START_DAY = 214
-const START_DAY = 200
+const START_DAY = 214
 const END_DAY = START_DAY + 33
 
 const TEXTS = [
