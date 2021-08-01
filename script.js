@@ -2,13 +2,14 @@ var now = new Date();
 var start = new Date(now.getFullYear(), 0, 0);
 var diff = now - start;
 var oneDay = 1000 * 60 * 60 * 24;
+console.log('Now', now);
 var day = Math.floor(diff / oneDay);
 
 const START_DAY = 214
 const END_DAY = START_DAY + 33
 
 const TEXTS = [
-  "Te vas te vasss, pásalo excelente feita. Cuando estábamos viendo las maletas pensaba mmmm chiguals quepo en esa ahhhh. Sorry por hacerte subir de nuevo las escaleras para sacar la foto por dentro, pero habría sido raro y sospechoso que te pida esta foto así no más juju. Suerte en tu viaje, y una vez más: te quiero!",
+  "Te vas te vasss, pásalo excelente feita. Cuando estábamos viendo las maletas pensaba mmmm chiguals quepo en esa ahhhh. Sorry por hacerte subir de nuevo las escaleras para sacar la foto por dentro, pero habría sido raro y sospechoso que te pida esta foto así no más juju. Suerte en tu viaje, y una vez más: te quiero! Mañana abre esta página de nuevo 😘",
   "Malito este año nuevo. A la izquierda un Caco fresco. A la derecha no sé, no me acuerdo jajajaj, solo sé que estabamos cuidando a un wn que estaba dando la cacha y que estaba lloviznando (o ssshhhhispeando 🌊). No todos los días van a ser fotos mías, pero just in case ya me olvidaste, aquí ya me recuerdas de nuevo. Te quiero fea, sigue disfrutandinggggggg",
   "Es bacán esta foto. Como que se nota que me gustai harto y estoy feliz. Tu no tanto pero ahora estai en las Europas, asiq si deberías estar feliz (wa). Si esta página no mufó el viaje y mis cálculos no fallan (difícil ahhh), me voy hoy a la yapla 🏖️ haciéndole honor a la guayyyyabera. Tkm",
   "jajajjajj donde todo empezó. Estabai super sobria oe jajajaja. Me dio risa que antes (cuando estabamos juntos pero antes) no me contabai na de estas cosas. Ahora me contai 'naaa si en ese carrete yo le dije a la Anita: me gusta ese wacho' jajajj. Es bacán q nos tengamos tanta confianza. te quiero fea, mañana un próximo capítulo, waaa jajaj",
@@ -64,6 +65,9 @@ window.onload = async function() {
 
   if (START_DAY <= day && day <= END_DAY) {
     document.getElementById('now').className = "";
+    if (day === START_DAY) {
+      document.getElementById('first-day').className = "text-sm text-gray-400 pb-2";
+    }
   } else if (day > END_DAY) {
     document.getElementById('after-trip').className = "";
   } else {
