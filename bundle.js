@@ -7,6 +7,8 @@ var oneDay = 1000 * 60 * 60 * 24;
 console.log('Now', now);
 var day = Math.floor(diff / oneDay);
 
+console.log('Hour', now.getHours(), 'Day', day);
+
 const START_DAY = 214
 const END_DAY = START_DAY + 33
 
