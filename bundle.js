@@ -27,7 +27,7 @@ const TEXTS = [
   "Distancia social por favor! Ah, te lo tomaste en serio, unos miles de kilometros no más jajaja. Los shaleca amarilla are the new moda? Este viaje si se tiene que repetir si o sí, pero no a Viña 👀, en un próx capítulo se viene sugerencia?",
   "cacha la modelo pa linda por la chucha. Me tinca que fue esa misma pose cuando dejaste la cagá con la Natu JAJAJA, que me reí. Menos mal no nos detuvieron, no habría podido viajarrrsssss porq me habrían quitado el pase o no? o le estoy dando color? somos unos prófugos, unos bandíosssss",
   "Resumen de la casa de la anita. Chago y sueño a las 3 AM. Lo bacán era volver contigo a la casita a regalonear. Te quiero fea, ojalá el viaje esté de panini, gucci y entero weno. PD: cada vez que miro tu foto con el Chago me enamoro más",
-  "Qué Crepes & Waffles, Catalina Salinas Celedón señoras y señores! Los mejores panqueques de la vida, y no miento. Pero solo pa mi. Gracias por hacerme 🤍 Día 14 y toy pensando: habrá servido de algo todo esto? me extrañas menos ahora?",
+  "Qué Crepes & Waffles, Catalina Salinas Celedón señoras y señores! Los mejores panqueques de la vida, y no miento. Pero solo pa mi. Gracias por hacerme 🤍 Día 15 y toy pensando: habrá servido de algo todo esto? me extrañas menos ahora?",
   "No hay mucha caption aquí. Foto bonita, salgo medio flaco y pálido pero puta que teníamos hambre jajajjaj (cuando fuimos a comer burgirsss). Tkm",
   "Estos tragos fueron los culpables po, no era yo el curao, seguro tenían droga horoscópica o algo. Todavía no descifro por qué cresta vemos la luna a veces jajajajajj. Disfruta feita",
   "Yo creo que es la primera foto que saco ultra rápido y no te escondes. Me gusta mucho jajaj no sé por qué, te acordai? te debo una salida si adivinas dónde es. Te mando un abrazin",
@@ -41,9 +41,9 @@ const TEXTS = [
   "La foto pa linda oyessssi. Ya casi un mes y me tinca que te voy a estar extrañando más que la chucha. Sos muy bonita <3",
   "Una foto mía haciendo deporte (o sea, voy a hacer deporte..) Estoy medio perdido con los días pero si no me equivoco, aquí debería estar saliendo de cuarentena asiq este debería ser mi mood ahora. Cómo va el deporte allá? En el super trekking del Parque Metropolitano me dijiste que saldrían a hacer maratón y cosas, va bien eso? Saludos, se me cuida.",
   "Pta que ganas de estar así, acostaditos, viendo una serie (a la vuelta te voy a amarrar pa que veamos Harry Potter). Te quiero infinito feita máxima",
-  "28 días y siento que haber programao esto fue musho colorssss (o no?), llevo escribiendo mucho y ha sido muy bacán jajajaj, me acordé de muchas cosas buscando las fotos. Disfruta mucho estos últimos días feita",
+  "29 días y siento que haber programao esto fue musho colorssss (o no?), llevo escribiendo mucho y ha sido muy bacán jajajaj, me acordé de muchas cosas buscando las fotos. Disfruta mucho estos últimos días feita",
   "JAJAJAJAJAJAJ no sé por qué me salió esta wea. Pero puedo decir que @catalinasalinas te cagó firme Catalina. Esa niña tiene cara de soplarle las velas a la hermana en el cumpleaños, terrible maldaosa. Ya si sé, out of context este día, pero me salió y tenía q ponerlo jajajajaj",
-  "Han pasado 30 días. He sido iluminado. Un mes y la luz me llama. Esto no es un adiós Catalina, es un hasta siempre. La volaita jaja. En verdad estoy mirando tu avión que están limpiando pa que en algunos días te vengas",
+  "Han pasado 31 días. He sido iluminado. Un mes y la luz me llama. Esto no es un adiós Catalina, es un hasta siempre. La volaita jaja. En verdad estoy mirando tu avión que están limpiando pa que en algunos días te vengas",
   "Ya te lo había dicho y lo repito 1000 veces: me gustai de todas formas. Así me gustai más todavía, te quiero puro dar un beso, te quiero puro dar un abrazo. te quiero.",
   "Se acabo señores! Hasta acá llega la cosa. Nos vemos pronto. Tkm"
 ]
