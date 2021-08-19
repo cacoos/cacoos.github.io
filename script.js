@@ -29,13 +29,13 @@ const TEXTS = [
   "No hay mucha caption aquí. Foto bonita, salgo medio flaco y pálido pero puta que teníamos hambre jajajjaj (cuando fuimos a comer burgirsss). Tkm",
   "Estos tragos fueron los culpables po, no era yo el curao, seguro tenían droga horoscópica o algo. Todavía no descifro por qué cresta vemos la luna a veces jajajajajj. Disfruta feita",
   "Yo creo que es la primera foto que saco ultra rápido y no te escondes. Me gusta mucho jajaj no sé por qué, te acordai? te debo una salida si adivinas dónde es. Te mando un abrazin",
-  "JAJAJAJAJAJAJJA buena cara oye. Te deberíai comprar luces como las mías, así te haces automáticamente Tiktoker jajaj, tkm. PD: https://pbs.twimg.com/profile_images/1019349762552758272/8GndmvrT_400x400.jpg",
-  "Ya te olvidaste de mí? I am watching you",
+  "JAJAJAJAJAJAJJA buena cara. Eri la más linda del universo, me gustai así y de todas formas feita máxima 😍. Te deberíai comprar luces como las mías, así te haces automáticamente Tiktoker, tkm. PD: https://pbs.twimg.com/profile_images/1019349762552758272/8GndmvrT_400x400.jpg",
+  "Hace unos días te dije que deberíamos repetir la ida a Viña, pero con otra sugerencia de viaje. Dos fotos, dos alternativas 👀 ahora te toca adivinar dónde es cada una. Tu me dices que nos vamos, y nos vamos. Disfruta las Europas eso sí primero ❤️",
   "No sé por qué se ve el screenshot, q paja, pero le da un toque artesanal (waa ajajj). Ya es medio tarde ahora que estoy escribiendo esto, y me dieron ganas de tomarme un mojito maracuyá, después de encontrar esta foto. No tiene relación con nosotros, pero igual la pongo para hoy. Tkm",
   "Caco posting los últimos días ah, qué fome. Me dio risa cuando la encontré (es una que subí a IG) porq no entiendo el fin. Qué chucha importa que hayan 23 grados? es terrible normal jajajaj. Qué gracia tengo? ando de negro, no tengo nada en el pelo, no tengo piercings, cero gracia. Yo cacho que altoque me dejó de seguir gente por subir esta wea anti-influencer",
   "Me voy o no a México? Tengo el bigote dao pal éxito. Así como estos wnes que entran al bar pateando las puertas como dobles (estas como de madera) y disparandole a todos, Caco Vaquero. No sé por qué puse esta foto ni menos este caption. Partí terrible cursi en todo y ahora estás cagás. Perdón por tan poco. Te quiero mucho",
   "Esta es como la 91290823 foto en que salgo con tus lentes. Qué wea que siempre te los pido y me saco fotos jajajajaja, me juro hipster. Qué ganas que vuelva el veranito y carretiemos sin toque de queda. Ya han pasado 23 días, brigido. Tkm",
-  "Hace unos días te dije (que raro escribir esto siendo que lo hice todo en un día) que deberíamos repetir la ida a Viña, pero con otra sugerencia de viaje. La foto dice más q mil palabras o no? Tu me dice y nos vamo'. Disfruta las Europas eso sí primero ❤️",
+  "Ya te olvidaste de mí? I am watching you",
   "La foto pa linda oyessssi. Ya casi un mes y me tinca que te voy a estar extrañando más que la chucha. Sos muy bonita <3",
   "Una foto mía haciendo deporte (o sea, voy a hacer deporte..) Estoy medio perdido con los días pero si no me equivoco, aquí debería estar saliendo de cuarentena asiq este debería ser mi mood ahora. Cómo va el deporte allá? En el super trekking del Parque Metropolitano me dijiste que saldrían a hacer maratón y cosas, va bien eso? Saludos, se me cuida.",
   "Pta que ganas de estar así, acostaditos, viendo una serie (a la vuelta te voy a amarrar pa que veamos Harry Potter). Te quiero infinito feita máxima",
@@ -62,7 +62,7 @@ window.onload = async function() {
     document.getElementById('caption').textContent = TEXTS[day - START_DAY];
   });
 
-  await new Promise(resolve => setTimeout(resolve, 1500));
+  await new Promise(resolve => setTimeout(resolve, 800));
   document.getElementById('loading').className = "hidden";
 
   if (START_DAY <= day && day <= END_DAY) {
