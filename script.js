@@ -7,7 +7,7 @@ var day = Math.floor(diff / oneDay);
 
 console.log('Hour', now.getHours(), 'Day', day);
 
-const START_DAY = 214
+const START_DAY = 217
 const END_DAY = START_DAY + 35
 
 const TEXTS = [

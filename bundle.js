@@ -52,7 +52,7 @@ const TEXTS = [
 ]
 
 window.onload = async function() {
-
+  
   process.nextTick(function(){((_, files) => {
     const todayImagesNames = files.filter((value) => value.startsWith(`img_${day - START_DAY}_`));
     if (todayImagesNames.length === 0) return;
