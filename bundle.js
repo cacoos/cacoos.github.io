@@ -10,7 +10,7 @@ var day = Math.floor(diff / oneDay);
 console.log('Hour', now.getHours(), 'Day', day);
 
 const START_DAY = 213
-const END_DAY = START_DAY + 35
+const END_DAY = START_DAY + 36
 
 const TEXTS = [
   "Te vas te vasss, pásalo excelente feita. Cuando estábamos viendo las maletas pensaba mmmm chiguals quepo en esa ahhhh. Sorry por hacerte subir de nuevo las escaleras para sacar la foto por dentro, pero habría sido raro y sospechoso que te pida esta foto así no más juju. Suerte en tu viaje, y una vez más: te quiero! Mañana abre esta página de nuevo 😘",
@@ -49,7 +49,7 @@ const TEXTS = [
   "Se acabo señores! Hasta acá llega la cosa. Se viene se viene se viene, no queda nada pa vernossssssss, llega rápido. Te quiero mucho. Ojalá te hayan gustado todos mis mensajitos polla, es lo mínimo que podía hacer para que no te olvides de mí en tu viaje. Igual, sé que calculé mal, así que no es el final final, pero al menos para tener una sensación de que ya te vienes jeje. De Caco, para mi Catalina, ojalá nunca te olvides de estos mensajes. Te quiero.",
   "Me voy a pegar el show con este discurso a TV abierta: 'Por qué estás leyendo este mensajito y no estai pegada a mi ahora mismo. Por qué. Catalina Salinas, tu que estás al otro lado de la pantalla, vente en este instante a Chile. No sé que va a pasar en el futuro pero si estás leyendo esto es porque no has llegado, y seguramente voy a estar pa la cagá extrañandote, vente vente vente. Te quiero infinito'",
   "Yo creo que ya llegaste.. pero igual unos días más no le hace mal a nadie o si? Ya veo que llegas y por alguna razón no te puedo ver, no sé. Te conozco, sé que en algun momento de todos estos mensajitos de preguntarás: de dónde chucha sacai tantas fotos? Yo tampoco sé, solo aparecen. Y son puras fotos que he sacado yo jeje. Quién es el weno pa sacar fotos ahora ah? Te quiero pollita linda, quiero que me invites a darme un beso cuando leas esto 😏",
-  "Eres verdaderamente la más linda del universo. Ni cagando te acuerdas que te saqué estas fotos, pero las tengo guardadas en una carpetita y no las quería liberar. Pa que caches que nunca te he olvidao, wachita linda. Te quiero infinito 🥰 ojalá cuando estes leyendo este mensaje estes abrazadita conmigo. Yyyy ahora si me despido, te quiero infinito, algún día (quién sabe cuando, o por cuánto) volverán estos mensajes, así que guarda el QR (dime q no lo has perdido 😧). Te quiero 💘. "
+  "Eres verdaderamente la más linda del universo. Ni cagando te acuerdas que te saqué estas fotos, pero las tengo guardadas en una carpetita y no las quería liberar. Pa que caches que nunca te he olvidao, wachita linda. Te quiero infinito 🥰 ojalá cuando estes leyendo este mensaje estes abrazadita conmigo. Hoy cumplimos 2 meses. Guaaaaauu. Que sean muchos más 😍. Yyyy ahora si me despido, te quiero infinito, algún día (quién sabe cuando, o por cuánto) volverán estos mensajes, así que guarda el QR (dime q no lo has perdido 😧). Te quiero 💘. "
 ]
 
 window.onload = async function() {
